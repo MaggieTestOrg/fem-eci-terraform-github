@@ -3,6 +3,7 @@ locals {
     "fem-eci-terraform-tfe" = {
       description        = "Automation for Terraform Enterprise"
       gitignore_template = "Terraform"
+      archived           = true
       name               = "fem-eci-terraform-tfe"
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
@@ -10,6 +11,7 @@ locals {
     "fem-eci-terraform-github" = {
       description        = "Automation for Github"
       gitignore_template = "Terraform"
+      archived           = true
       name               = "fem-eci-terraform-github"
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
